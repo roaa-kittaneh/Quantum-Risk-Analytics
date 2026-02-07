@@ -1,0 +1,52 @@
+{
+  "confidence_level": "95.0%",
+  "credit_impact": {
+    "projected_defaults": 6154,
+    "stress_factor": "1.1x"
+  },
+  "estimated_loss": "$186,498,075.37",
+  "execution_time": "0.6970s",
+  "market_impact": {
+    "description": "Quantum analysis for Mild Disruption with Integrated Credit Risk.",
+    "gold_volatility": "0.82%",
+    "sp500_volatility": "1.42%"
+  },
+  "quantum_metrics": {
+    "confidence_level": "95.0%",
+    "estimated_loss_dollars": "$186,498,075",
+    "execution_time": "0.6970s",
+    "expected_loss_percentage": "0.94%",
+    "oracle_queries": 5120,
+    "quantum_estimation": "0.109808",
+    "risk_probability": "8.78%"
+  },
+  "risk_analysis": {
+    "credit_risk": {
+      "default_rate_projection": 6.15,
+      "estimated_defaults": 6154,
+      "expected_credit_loss": 186488705.36,
+      "portfolio_exposure": 5050114462.0
+    },
+    "market_risk": {
+      "estimated_loss": 9370.01,
+      "quantum_confidence": 95.0,
+      "risk_probability": 8.78,
+      "var_95_pct": 0.94
+    },
+    "total_aggregated_risk": {
+      "risk_composition": {
+        "credit_share": 100.0,
+        "market_share": 0.0
+      },
+      "total_economic_capital": 186498075.37
+    }
+  },
+  "risk_probability": "8.78%",
+  "scenario": "Mild Disruption",
+  "scenario_details": {
+    "intensity": "0.8x",
+    "name": "Mild Disruption",
+    "risk_level": "LOW"
+  },
+  "status": "success"
+}
